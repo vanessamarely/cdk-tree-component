@@ -1,0 +1,49 @@
+  <mat-grid-list cols="2" rowHeight="3:1">
+    <mat-grid-tile>
+        <mat-card class="card">
+            <mat-card-header>
+                <mat-card-title>
+                  <h2 class="mat-h2">Tree</h2>
+                </mat-card-title>
+              </mat-card-header>
+          <mat-card-content>
+            <p>
+                The cdk-tree enables developers to build a customized tree experience for structured data. 
+                The cdk-tree provides a foundation to build other features such as filtering on top of tree. 
+                For a Material Design styled tree, see mat-tree which builds on top of the cdk-tree.
+            </p>
+            <p>
+                There are two types of trees: flat tree and nested Tree. 
+                The DOM structures are different for these two types of trees.
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>
+              <h2 class="mat-h2">Flat Tree</h2>
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              The logical parent-child relationship is flattened and nodes are not rendered inside of each other, but instead are rendered as siblings in sequence. Can handle lots of data. </p>
+            
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title><h2 class="mat-h2">Nested Tree</h2></mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+                In nested tree, children nodes are placed inside their parent node in the DOM. The parent node contains a node outlet into which children are projected. 
+            </p>
+            
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+  </mat-grid-list>
